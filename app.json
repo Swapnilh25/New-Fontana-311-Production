@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "Fontana_311",
+    "name": "Fontana 311",
     "slug": "Fontana_311",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/playstore.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/fountain-blue.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,13 +16,21 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/playstore.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.stacknexus.Fontana_311",
+      "targetSdkVersion": 34
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/playstore.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ddb12012-a595-425e-95a8-dea0052a9024"
+      }
     }
   }
 }
